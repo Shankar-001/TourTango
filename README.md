@@ -1,4 +1,4 @@
 You can visit this site for Demo - https://tourtango.netlify.app/
 
-https://fontawesome.com/
+visit this site for some icon font: --  https://fontawesome.com/
 
