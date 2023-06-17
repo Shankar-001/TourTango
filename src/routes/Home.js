@@ -2,7 +2,7 @@ import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import img from '../Assets/12.jpg'
 import Destination from '../components/Destination'
-import Trip from '../components/Trip'
+import Trips from '../components/Trips'
 import Footer from '../components/Footer'
 
 function Home() {
@@ -19,7 +19,7 @@ function Home() {
         btnClass='show'
       />
       <Destination />
-      <Trip />
+      <Trips />
       <Footer />
     </>
   )

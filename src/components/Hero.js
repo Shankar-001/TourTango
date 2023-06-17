@@ -1,6 +1,6 @@
 import './HeroStyles.css'
 
-function Hero(props) {
+const Hero = (props) => {
   return (
     <>
       <div className={props.cName}>

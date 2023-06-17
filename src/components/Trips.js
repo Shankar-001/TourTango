@@ -1,10 +1,10 @@
 import TripData from './TripData'
 import './TripStyles.css'
-import trip1 from '../Assets/indonesia.jpg'
-import trip2 from '../Assets/malaysia.jpg'
-import trip3 from '../Assets/france.jpg'
+import trip1 from '../Assets/5.jpg'
+import trip2 from '../Assets/8.jpg'
+import trip3 from '../Assets/6.jpg'
 
-function Trip() {
+function Trips() {
   return (
     <div className="trip">
       <h1>Recent Trips</h1>
@@ -42,4 +42,4 @@ function Trip() {
     </div>
   )
 }
-export default Trip
+export default Trips

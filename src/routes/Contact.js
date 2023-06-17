@@ -4,7 +4,7 @@ import img from '../Assets/Contact.jpg'
 import Footer from '../components/Footer'
 import ContactUs from '../components/ContactUs'
 
-export default function Contact() {
+function Contact() {
   return (
     <>
       <Navbar />
@@ -14,3 +14,5 @@ export default function Contact() {
     </>
   )
 }
+
+export default Contact

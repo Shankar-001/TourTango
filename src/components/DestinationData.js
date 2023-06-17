@@ -2,23 +2,21 @@ import { Component } from 'react'
 import './DestinationStyles.css'
 
 
-class DestinationData extends Component {
-  render() {
+const DestinationData = (props) => {
     return (
-      <div className={this.props.className}>
+      <div className={props.className}>
         <div className="des-text">
-          <h2>{this.props.heading}</h2>
+          <h2>{props.heading}</h2>
           <p>
-            {this.props.text}
+            {props.text}
           </p>
         </div>
         <div className="image">
-          <img src={this.props.img1} alt="image" />
-          <img src={this.props.img2} alt="image" />
+          <img src={props.img1} alt="image" />
+          <img src={props.img2} alt="image" />
         </div>
       </div>
     )
-  }
 }
 
 export default DestinationData

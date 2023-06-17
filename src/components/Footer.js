@@ -12,14 +12,14 @@ const Footer = () => {
           <a href="/">
             <i className="fa-brands fa-facebook-square"></i>
           </a>
-          <a href="/">
+          <a href="https://www.instagram.com/_.witch3r/" target="_blank">
             <i className="fa-brands fa-instagram-square"></i>
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/praveen-shankar-ba289a212/" target="_blank">
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="/">
-            <i class="fa-brands fa-github-square"></i>
+          <a href="https://github.com/Shankar-001" target="_blank">
+            <i className="fa-brands fa-github-square"></i>
           </a>
         </div>
       </div>
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div>
           <h4>Community</h4>
-          <a href="/" target="_blank">
+          <a href="https://github.com/Shankar-001" target="_blank">
             GitHub
           </a>
 

@@ -1,6 +1,6 @@
 import './TripStyles.css'
 
-function TripData(props) {
+const TripData = (props) => {
   return (
     <div className="t-card">
       <div className="t-image">
