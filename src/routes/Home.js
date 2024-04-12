@@ -6,10 +6,6 @@ import Trips from '../components/Trips';
 import Footer from '../components/Footer';
 
 function Home() {
-  const checking = process.env.REACT_APP_IMPORTANT_TOKEN;
-
-  console.log(checking);
-
   return (
     <>
       <Navbar />
@@ -23,7 +19,6 @@ function Home() {
         btnClass="show"
       />
       <Destination />
-      {checking}
       <Trips />
       <Footer />
     </>
