@@ -1,4 +1,4 @@
-import './FooterStyles.css'
+import './FooterStyles.css';
 
 const Footer = () => {
   return (
@@ -15,7 +15,10 @@ const Footer = () => {
           <a href="https://www.instagram.com/_.witch3r/" target="_blank">
             <i className="fa-brands fa-instagram-square"></i>
           </a>
-          <a href="https://www.linkedin.com/in/praveen-shankar-ba289a212/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/praveen-shankar-ba289a212/"
+            target="_blank"
+          >
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a href="https://github.com/Shankar-001" target="_blank">
@@ -56,6 +59,6 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
-export default Footer
+  );
+};
+export default Footer;

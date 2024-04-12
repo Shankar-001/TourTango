@@ -7,6 +7,10 @@ import Contact from './routes/Contact'
 
 
 function App() {
+const checking = process.env.REACT_APP_IMPORTANT_TOKEN;
+
+console.log(checking);
+
   return (
     <div className="App">
       <Routes>
@@ -14,6 +18,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/service' element={<Service />} />
         <Route path='/contact' element={<Contact />} />
+        {checking}
       </Routes>
     </div>
   )
